@@ -1,18 +1,28 @@
 #leftHead a {
   float: left;
+  padding-left: 30px;
 }
 #rightHead a {
   float: right;
+  padding-right: 15px;
+}
+.button {
+  margin-top: -8px;
+  padding: 7px 15px 7px 15px;
+  background-color: #4285f4;
+  color: white;
+  border: 1px solid #4285f4;
+  font: bold;
 }
 a {
   text-decoration: none;
-  padding-left: 15px;
   color: rgb(0, 0, 0);
   opacity: 0.75;
 }
 a:hover {
   text-decoration: underline;
 }
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -21,10 +31,42 @@ ul {
 li {
   display: inline;
 }
-#G-logo img,
-input {
+#searchbar {
+  width: 584px;
+  height: 34px;
+}
+#G-logo img {
   display: inline;
+}
+#btn {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+  color: #5f6368;
+  font-size: 14px;
+  margin: 11px 4px;
+  min-width: 54px;
+  height: 36px;
+  text-align: center;
+  padding: 0 16px;
+  border: 1px solid rgb(242, 242, 242);
+  border-radius: 4px;
+}
+#searchbar {
+  display: block;
+  text-align: center;
 }
 img {
   padding-top: 109px;
+}
+header {
+  padding-top: 20px;
+  width: 100%;
+}
+footer {
+  background-color: #f2f2f2;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  line-height: 40px;
+  display: inline-block;
 }
