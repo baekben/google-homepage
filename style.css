@@ -1,0 +1,10 @@
+#leftHead a {
+  display: inline-block;
+}
+#rightHead a {
+  display: inline-block;
+  text-align: right;
+}
+a {
+  text-decoration: none;
+}
